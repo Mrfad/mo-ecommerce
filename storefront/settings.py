@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'playground.apps.PlaygroundConfig',
     'store',
     'tags',
+    'likes',
 
     'debug_toolbar',
 ]
