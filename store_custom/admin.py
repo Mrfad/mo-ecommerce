@@ -1,7 +1,9 @@
+from store.models import Product
 from django.contrib import admin
-from django.contrib.contenttypes.admin import GenericTabularInline, GenericStackedInline
+from django.contrib.contenttypes.admin import GenericTabularInline
 from store.admin import ProductAdmin
-from tags.model import TaggedItem
+from tags.models import TaggedItem
+
 
 class TagInline(GenericTabularInline):
     autocomplete_fields = ['tag']
